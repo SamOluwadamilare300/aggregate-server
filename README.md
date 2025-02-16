@@ -28,7 +28,7 @@ To run this backend locally, follow these steps:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/news-aggregation-backend.git
+   git clone https://github.com/SamOluwadamilare300/aggregate-server.git
    cd news-aggregation-backend
    ```
 2. Install dependencies:
@@ -48,9 +48,9 @@ To run this backend locally, follow these steps:
 ## API Endpoints
 | Method | Endpoint         | Description |
 |--------|----------------|-------------|
-| GET    | `/news`        | Fetches general news articles |
-| GET    | `/news?category=business` | Fetches news by category |
-| GET    | `/news?sources=bbc-news`  | Fetches news from a specific source |
+| GET    | `/all-news`        | Fetches general news articles |
+| GET    | `/top-headlines` | Fetches news by top headlines |
+| GET    | `/country/:iso`  | Fetches news from a specific country|
 
 ## Theoretical Guide to Developing a News Aggregator with NewsAPI
 If you want to develop a similar project using **NewsAPI**, follow these steps:
